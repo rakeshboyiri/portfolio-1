@@ -9,17 +9,17 @@ import { GitlabIcon as GitHub, Linkedin, Mail } from 'lucide-react'
 
 export function WavyBackgroundDemo() {
   return (
-    <div className="flex justify-center mt-20">
+    <div className="flex justify-center mt-20 mb-0">
       <WavyBackground>
       <Card /> 
         <Image
           src={myphoto}
           alt="My Photo"  
-          className="rounded-full  max-w-[300px] md:w-[70%] lg:w-[80%] object-cover flex justify-center m-auto "
+          className="rounded-full w-[80%] max-w-[300px] h-auto md:w-[70%] lg:w-[80%] object-cover flex justify-center m-auto "
 
         />
         <h2 className="text-3xl md:text-4xl text-blue-400 mb-6">Frontend Developer </h2>
-        <p className="text-lg md:text-xl mb-8">
+        <p className="text-lg md:text-xl  mb-6">
           Enthusiastic and motivated CSE graduate with hands-on experience in Frontend development, Python programming, and strong problem-solving skills in Data Structures and Algorithms.
         </p>
         <div className="flex justify-center space-x-6">
