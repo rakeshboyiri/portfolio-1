@@ -1,0 +1,81 @@
+.projects {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.projectItem {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 90%;
+  text-align: left;
+}
+
+.projectItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projectItem h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.projectItem p {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.projectItem p h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.projectItem p b {
+  color: #2980b9;
+}
+
+.projectItem a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid #2980b9;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projectItem a:hover {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.projects {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+  text-align: center;
+}
