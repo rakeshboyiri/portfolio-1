@@ -15,7 +15,7 @@ export function WavyBackgroundDemo() {
         <Image
           src={myphoto}
           alt="My Photo"  
-          className="rounded-full w-[80%] max-w-[300px] h-auto md:w-[70%] lg:w-[80%] object-cover flex justify-center m-auto "
+          className="rounded-full  max-w-[300px] md:w-[70%] lg:w-[80%] object-cover flex justify-center m-auto "
 
         />
         <h2 className="text-3xl md:text-4xl text-blue-400 mb-6">Frontend Developer </h2>
