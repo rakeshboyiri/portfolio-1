@@ -11,7 +11,7 @@ const Card = () => {
 
 const StyledWrapper = styled.div`
   .shine {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.3);
     background: #222 -webkit-gradient(
