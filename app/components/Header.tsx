@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="fixed w-full bg-gray-900 bg-opacity-90 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold">Boyiri Rakesh</a>
+        <a href="#" className="text-2xl font-bold"> Rakesh Boyiri</a>
         <nav className="hidden md:flex space-x-6">
           <a href="#about" className="hover:text-blue-400 transition">About</a>
           <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
